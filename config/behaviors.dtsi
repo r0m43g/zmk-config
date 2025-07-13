@@ -7,7 +7,7 @@
         tapping-term-ms = <300>;
         quick-tap-ms = <150>;
         require-prior-idle-ms = <150>;
-        flavor = "tap-prefered";
+        flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
       };
       mt {
@@ -60,4 +60,4 @@
                      , <&macro_tap &to 3>;
         };
     };
-}
+};
