@@ -1,0 +1,63 @@
+/ {
+    behaviors {
+      hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <300>;
+        quick-tap-ms = <150>;
+        require-prior-idle-ms = <150>;
+        flavor = "tap-prefered";
+        bindings = <&kp>, <&kp>;
+      };
+      mt {
+        tapping-term-ms = <300>;
+        quick-tap-ms = <150>;
+      };
+    };
+    macros {
+        // EN: Ctrl+7 + переключение на слой 0
+        switch_en: switch_en {
+            compatible = "zmk,behavior-macro";
+            label = "SWITCH_EN";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp N7>
+                     , <&macro_release &kp LCTRL>
+                     , <&macro_tap &to 0>;
+        };
+
+        // LT: Ctrl+8 + переключение на литовский слой
+        switch_lt: switch_lt {
+            compatible = "zmk,behavior-macro";
+            label = "SWITCH_LT";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp N8>
+                     , <&macro_release &kp LCTRL>
+                     , <&macro_tap &to 1>;
+        };
+
+        // RU: Ctrl+9 + переключение на русский слой
+        switch_ru: switch_ru {
+            compatible = "zmk,behavior-macro";
+            label = "SWITCH_RU";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp N9>
+                     , <&macro_release &kp LCTRL>
+                     , <&macro_tap &to 2>;
+        };
+
+        // RAT: Ctrl+0 + переключение на ратисе
+        switch_rat: switch_rat {
+            compatible = "zmk,behavior-macro";
+            label = "SWITCH_RAT";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL>
+                     , <&macro_tap &kp N0>
+                     , <&macro_release &kp LCTRL>
+                     , <&macro_tap &to 3>;
+        };
+    };
+}
