@@ -24,7 +24,7 @@
    &kp TAB   &kp Q      &kp W       &hm LALT E  &kp R       &kp T         &kp Y     &kp U        &hm RALT I  &kp O       &kp P    &kp BSPC
    &kp AT    &hm LGUI A &hm LCTRL S &kp D       &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &kp K       &hm RCTRL L &kp SEMI &kp SQT
    &kp MINUS &kp Z      &kp X       &kp C       &kp V       &kp B         &kp N     &kp M        &kp COMMA   &kp DOT     &kp FSLH &kp EXCL
-                                    &kp ESC     &mo 5       &lt 1 SPACE   &kp SPACE &mo 6        &kp RET
+                                    &kp ESC     &mo 6       &lt 1 SPACE   &kp SPACE &mo 7        &kp RET
                         >;
                 };
 
@@ -52,9 +52,24 @@
                         //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
                         bindings = <
    &kp TAB    &kp Q      &kp W       &hm LALT E  &kp R       &kp T         &kp Y     &kp U        &hm RALT I  &kp O       &kp P    &kp BSPC
-   &kp RA(AT) &hm LGUI A &hm LCTRL S &lt 3 D     &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &lt 3 K     &hm RCTRL L &kp SEMI &kp SQT
+   &kp RA(AT) &hm LGUI A &hm LCTRL S &lt 4 D     &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &lt 4 K     &hm RCTRL L &kp SEMI &kp SQT
    &kp MINUS  &kp Z      &kp X       &kp C       &kp V       &kp B         &kp N     &kp M        &kp COMMA   &kp DOT     &kp FSLH &kp RA(EXCL)
-                                    &kp ESC     &mo 5       &lt 4 SPACE   &kp SPACE &mo 6        &kp RET
+                                     &kp ESC     &mo 6       &lt 5 SPACE   &kp SPACE &mo 7        &kp RET
+                        >;
+                };
+
+                rat_layer {
+                        label = "RATISE";
+                        // -----------------------------------------------------------------------------------------
+                        // |  Q  |  Ū  |  Ė  |  Y  |  O  |  F  |---|  J  |  N  |  K  |  G  |  B  |  C  |
+                        // |  W  |  U  |  E  |  I  |  A  |  H  |---|  L  |  R  |  T  |  S  |  P  |  Z  |
+                        // |  -  |  Ų  |  Ę  |  Į  |  Ą  |  X  |---|  V  |  M  |  D  |  Š  |  Č  |  Ž  |
+                        //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
+                        bindings = <
+   &kp Q      &kp N8     &kp N4      &hm LALT Y  &kp O       &kp F         &kp J     &kp N        &hm RALT K  &kp G       &kp B    &kp C
+   &kp W      &hm LGUI U &hm LCTRL E &lt 4 I     &hm LSHFT A &kp H         &kp L     &hm RSHFT R  &lt 4 T     &hm RCTRL S &kp P    &kp Z
+   &kp MINUS  &kp N7     &kp N3      &kp N5      &kp N1      &kp X         &kp V     &kp M        &kp D       &kp N6      &kp N2   &kp EQUAL
+                                     &kp ESC     &mo 6       &lt 5 SPACE   &kp SPACE &mo 7        &kp RET
                         >;
                 };
 
