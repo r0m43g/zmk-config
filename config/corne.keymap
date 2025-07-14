@@ -70,6 +70,7 @@
    &trans     &kp N1     &kp N6     &trans     &kp LPAR   &kp LBKT      &kp RBKT   &kp RPAR   &kp DQT    &kp COLON  &kp SEMI   &kp SQT
    &trans     &kp EQUAL  &trans     &kp N2     &kp LBRC   &kp LT        &kp GT     &kp RBRC   &kp COMMA  &kp DOT    &kp FSLH   &kp EXCL
                                       &trans     &trans     &trans     &trans     &trans     &trans
+                        >;
                 };
 
                 symlt_layer {
