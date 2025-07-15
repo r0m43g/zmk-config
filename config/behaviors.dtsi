@@ -57,7 +57,7 @@
             label = "SWITCH_RAT";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LCTRL>
-                     , <&macro_tap &kp N0>
+                     , <&macro_tap &kp N8>
                      , <&macro_release &kp LCTRL>
                      , <&macro_tap &to 3>;
         };
