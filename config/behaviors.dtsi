@@ -48,7 +48,7 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N9>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 2>;
+                     , <&macro_tap &to 6>;
         };
 
         // RAT: Ctrl+0 + переключение на ратисе

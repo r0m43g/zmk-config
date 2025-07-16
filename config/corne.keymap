@@ -16,7 +16,7 @@
 
                 default_layer {
                         label = "BASE";
-                        // -----------------------------------------------------------------------------------------
+                        // 0: ------------------------------------------------------------------------------
                         // |  TAB |  Q  |  W  |  E  |  R  |  T  |---|  Y  |  U   |  I  |  O  |  P  | BSPC |
                         // | @    |  A  |  S  |  D  |  F  |  G  |---|  H  |  J   |  K  |  L  |  ;  |  '   |
                         // | -    |  Z  |  X  |  C  |  V  |  B  |---|  N  |  M   |  ,  |  .  |  /  | !    |
@@ -25,13 +25,13 @@
    &kp TAB   &kp Q      &kp W       &hm LALT E  &kp R       &kp T         &kp Y     &kp U        &hm RALT I  &kp O       &kp P    &kp BSPC
    &kp AT    &hm LGUI A &hm LCTRL S &kp D       &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &kp K       &hm RCTRL L &kp SEMI &kp SQT
    &kp MINUS &kp Z      &kp X       &kp C       &kp V       &kp B         &kp N     &kp M        &kp COMMA   &kp DOT     &kp FSLH &kp EXCL
-                                    &kp ESC     &mo 6       &lt 1 SPACE   &kp SPACE &mo 7        &kp RET
+                                    &kp ESC     &mo 8       &lt 1 SPACE   &kp SPACE &mo 9        &kp RET
                         >;
                 };
 
                 sym_layer {
                         label = "SYM";
-                        // SYM layer -----------------------------------------------------------------------------
+                        // 1: SYM layer ------------------------------------------------------------------
                         // | TAB |  !  |  @  |  #  |  $  |  %  |---|  ^  |  &  |  *  |  _  |  =  | BSPC |
                         // | @   |  ?  |  `  |  \  |  (  |  [  |---|  ]  |  )  |  "  |  :  |  ;  | '    |
                         // | -   |  +  |  ~  | '|' |  {  |  <  |---|  >  |  }  |  ,  |  .  |  /  | !    |
@@ -46,7 +46,7 @@
 
                 lt_layer {
                         label = "LT";
-                        // -----------------------------------------------------------------------------------------
+                        // 2: LT layer ---------------------------------------------------------------------
                         // |  TAB |  Q  |  W  |  E  |  R  |  T  |---|  Y  |  U   |  I  |  O  |  P  | BSPC |
                         // | @    |  A  |  S  |  D  |  F  |  G  |---|  H  |  J   |  K  |  L  |  ;  |  '   |
                         // | -    |  Z  |  X  |  C  |  V  |  B  |---|  N  |  M   |  ,  |  .  |  /  | !    |
@@ -55,13 +55,13 @@
    &kp TAB    &kp Q      &kp W       &hm LALT E  &kp R       &kp T         &kp Y     &kp U        &hm RALT I  &kp O       &kp P    &kp BSPC
    &kp RA(AT) &hm LGUI A &hm LCTRL S &lt 4 D     &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &lt 4 K     &hm RCTRL L &kp SEMI &kp SQT
    &kp MINUS  &kp Z      &kp X       &kp C       &kp V       &kp B         &kp N     &kp M        &kp COMMA   &kp DOT     &kp FSLH &kp RA(EXCL)
-                                     &kp ESC     &mo 6       &lt 5 SPACE   &kp SPACE &mo 7        &kp RET
+                                     &kp ESC     &mo 8       &lt 5 SPACE   &kp SPACE &mo 9        &kp RET
                         >;
                 };
 
                 rat_layer {
                         label = "RATISE";
-                        // -----------------------------------------------------------------------------------------
+                        // 3: RATISE layer --------------------------------------------------------------
                         // |  Q  |  Ū  |  Ė  |  Y  |  O  |  F  |---|  J  |  N  |  K  |  G  |  B  |  C  |
                         // |  W  |  U  |  E  |  I  |  A  |  H  |---|  L  |  R  |  T  |  S  |  P  |  Z  |
                         // |  -  |  Ų  |  Ę  |  Į  |  Ą  |  X  |---|  V  |  M  |  D  |  Š  |  Č  |  Ž  |
@@ -70,28 +70,28 @@
    &kp Q      &kp N8     &kp N4      &hm LALT Y  &kp O       &kp F         &kp J     &kp N        &hm RALT K  &kp G       &kp B    &kp C
    &kp W      &hm LGUI U &hm LCTRL E &lt 4 I     &hm LSHFT A &kp H         &kp L     &hm RSHFT R  &lt 4 T     &hm RCTRL S &kp P    &kp Z
    &kp MINUS  &kp N7     &kp N3      &kp N5      &kp N1      &kp X         &kp V     &kp M        &kp D       &kp N6      &kp N2   &kp EQUAL
-                                     &kp ESC     &mo 6       &lt 5 SPACE   &kp SPACE &mo 7        &kp RET
+                                     &kp ESC     &mo 8    &lt 5 SPACE   &kp SPACE &mo 9        &kp RET
                         >;
                 };
 
                 ltp_layer {
                         label = "LTP";
-                        // -----------------------------------------------------------------------------------------
+                        // 4: LTP layer -----------------------------------------------------------------
                         // |TAB |  ą  |  č  |  ę  |  ė  |  į  |---|  ų  |  ū  |  į  |     |  ž  | BSPC |
                         // | @  |  ą  |  š  |     |  (  |  [  |---|  ]  |  )  |  "  |  :  |  ;  | '    |
                         // | -  |  ž  |     |  č  |  {  |  <  |---|  >  |  }  |  ,  |  .  |  /  | !    |
                         //                  |     |     |     |---|     |     |     |
                         bindings = <
-   &kp TAB    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5        &kp N7     &kp N8     &kp N5     &trans     &kp EQUAL  &kp BSPC
-   &trans     &kp N1     &kp N6     &trans     &kp LPAR   &kp LBKT      &kp RBKT   &kp RPAR   &kp DQT    &kp COLON  &kp SEMI   &kp SQT
-   &trans     &kp EQUAL  &trans     &kp N2     &kp LBRC   &kp LT        &kp GT     &kp RBRC   &kp COMMA  &kp DOT    &kp FSLH   &kp RA(EXCL)
-                                      &trans     &trans     &trans     &trans     &trans     &trans
+   &kp TAB    &kp N1     &kp N2     &kp N3     &kp N4          &kp N5        &kp N7     &kp N8          &kp N5     &trans     &kp EQUAL  &kp BSPC
+   &trans     &kp N1     &kp N6     &trans     &hm LSHFT LPAR  &kp LBKT      &kp RBKT   &hm RSHFT RPAR  &kp DQT    &kp COLON  &kp SEMI   &kp SQT
+   &trans     &kp EQUAL  &trans     &kp N2     &kp LBRC        &kp LT        &kp GT     &kp RBRC        &kp COMMA  &kp DOT    &kp FSLH   &kp RA(EXCL)
+                                          &trans     &trans     &trans     &trans     &trans     &trans
                         >;
                 };
 
                 symlt_layer {
                         label = "SYMLT";
-                        // SYM layer -----------------------------------------------------------------------------
+                        // 5: SYM layer ------------------------------------------------------------------
                         // | TAB |  !  |  @  |  #  |  $  |  %  |---|  ^  |  &  |  *  |  _  |  =  | BSPC |
                         // | @   |  ?  |  `  |  \  |  (  |  [  |---|  ]  |  )  |  "  |  :  |  ;  | '    |
                         // | -   |  +  |  ~  | '|' |  {  |  <  |---|  >  |  }  |  ,  |  .  |  /  | !    |
@@ -104,16 +104,46 @@
                         >;
                 };
 
+                ru_layer {
+                        label = "RU";
+                        // 6: RU layer ---------------------------------------------------------------------
+                        // | TAB |  Z  |  '  |  T  |  H  |  N  |---|  S  |  E   |  B  |  J  |  G  |  I  |
+                        // |  :  |  F  |  C  |  L  |  A  |  U  |---|  [  |  Q   |  R  |  K  |  4  |  2  |
+                        // |  -  |  P  |  X  |  W  |  D  |  ,  |---|  Y  |  V   | S-/ |  /  | S-| |  !  |
+                        //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
+                        bindings = <
+   &kp TAB    &kp Z      &kp SQT     &hm LALT T  &kp H       &kp N         &kp S     &kp E        &hm RALT B   &kp J        &kp G         &kp I
+   &kp LS(N6) &hm LGUI F &hm LCTRL C &lt 7 L     &hm LSHFT A &kp U         &kp LBKT  &hm RSHFT Q  &lt 7 R      &hm RCTRL K  &kp LS(N4)    &kp LS(N2)
+   &kp MINUS  &kp P      &kp X       &kp W       &kp D       &kp COMMA     &kp Y     &kp V        &kp LS(FSLH) &kp FSLH     &kp LS(BSLH)  &kp LF(N1)
+                                     &kp ESC     &mo 8       &lt 7 SPACE   &kp SPACE &mo 9        &kp RET
+                        >;
+                };
+
+                rup_layer {
+                        label = "RUP";
+                        // 7: RUP layer ---------------------------------------------------------------------
+                        // | TAB |  Z  |  '  |  T  |  H  |  N  |---|  S  |  E   |  B  |  J  |  G  |  I  |
+                        // |  :  |  F  |  C  |  L  |  A  |  U  |---|  [  |  Q   |  R  |  K  |  4  |  2  |
+                        // |  -  |  P  |  X  |  W  |  D  |  ,  |---|  Y  |  V   | S-/ |  /  | S-| |  !  |
+                        //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
+                        bindings = <
+   &trans  &kp DOT    &kp SEMI  &kp TILDE  &kp LS(N4) &kp LS(N5)      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp O
+   &trans  &kp LS(N7) &trans    &kp BSLH   &kp LS(N9) &trans          &trans     &kp LS(N0) &kp LS(N2) &kp LS(N6) &trans     &trans
+   &trans  &kp RBKT   &kp M     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &trans
+                              &trans &trans &trans       &trans &caps_word &trans
+                        >;
+                };
+
                 nav_layer {
                         label = "NAV";
-                        // NAV layer --------------------------------------------------------------------------------
+                        // 8: NAV layer -------------------------------------------------------------
                         // | TAB | EN | LT | RU |RAT|C_I|---|C_LFT |PGDN  |PGUP  |C_RGT |    |BSPC|
-                        // |CAPS |C_A |WS_S|    |C_R|C_U|---| LFT  | DWN  | UP   | RGT  |HOME|END |
+                        // |CAPS |C_A |WS_S|    |C_F|C_U|---| LFT  | DWN  | UP   | RGT  |HOME|END |
                         // | DEL |C_Z |C_X |C_C |C_V|C_B|---|CS_LFT|S_HOME|S_END |CS_RGT|INS |DEL |
                         //            |     |     |     |---|     |caps_w|     |
                         bindings = <
    &kp TAB   &switch_en &switch_lt    &switch_ru &switch_rat &kp LC(I)     &kp LC(LEFT)     &kp PG_DN    &kp PG_UP   &kp LC(RIGHT)     &trans   &kp BSPC
-   &kp CAPS  &kp LC(A)  &kp LG(LS(S)) &trans     &kp LC(R)   &kp LC(U)     &kp LEFT         &kp DOWN     &kp UP      &kp RIGHT         &kp HOME &kp END
+   &kp CAPS  &kp LC(A)  &kp LG(LS(S)) &trans     &kp LC(F)   &kp LC(U)     &kp LEFT         &kp DOWN     &kp UP      &kp RIGHT         &kp HOME &kp END
    &kp DEL   &kp LC(Z)  &kp LC(X)     &kp LC(C)  &kp LC(V)   &kp LC(B)     &kp LC(LS(LEFT)) &kp LS(HOME) &kp LS(END) &kp LC(LS(RIGHT)) &kp INS  &kp DEL
                         &trans        &trans     &trans        &trans       &caps_word      &trans
                         >;
@@ -121,7 +151,7 @@
 
                 fn_layer {
                         label = "FN";
-                        // FN layer -------------------------------------------------------------------------------
+                        // 9: FN layer --------------------------------------------------------------------
                         // | F1   | F2  | F3  | F4  | F5  | F6  |---|  0  |  7  |  8  |  9  |  *  |  /   |
                         // | F7   | F8  | F9  | F10 | F11 | F12 |---|  0  |  4  |  5  |  6  |  -  |  =   |
                         // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |---|  0  |  1  |  2  |  3  |  +  |  .   |
