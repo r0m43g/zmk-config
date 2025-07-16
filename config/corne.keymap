@@ -127,7 +127,7 @@
                         // |  -  |  P  |  X  |  W  |  D  |  ,  |---|  Y  |  V   | S-/ |  /  | S-| |  !  |
                         //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
                         bindings = <
-   &trans  &kp DOT    &kp SEMI  &kp TILDE  &kp LS(N4) &kp LS(N5)      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp O
+   &trans  &kp DOT    &kp SEMI  &kp GRAVE  &kp LS(N4) &kp LS(N5)      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp O
    &trans  &kp LS(N7) &trans    &kp BSLH   &kp LS(N9) &trans          &trans     &kp LS(N0) &kp LS(N2) &kp LS(N6) &trans     &trans
    &trans  &kp RBKT   &kp M     &trans     &trans     &trans          &trans     &trans     &trans     &trans     &trans     &trans
                               &trans &trans &trans       &trans &caps_word &trans
