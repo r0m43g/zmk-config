@@ -67,9 +67,9 @@
                         // |  -  |  Ų  |  Ę  |  Į  |  Ą  |  X  |---|  V  |  M  |  D  |  Š  |  Č  |  Ž  |
                         //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
                         bindings = <
-   &kp Q      &kp N8     &kp N4      &hm LALT Y  &kp O       &kp F         &kp J     &kp N        &hm RALT K  &kp G       &kp B    &kp C
+   &kp Q      &kp N8     &kp N4      &hm LALT Y  &kp O       &kp F         &kp J     &kp N        &hm RALT K  &kp G       &kp B    &kp X
    &kp W      &hm LGUI U &hm LCTRL E &lt 4 I     &hm LSHFT A &kp H         &kp L     &hm RSHFT R  &lt 4 T     &hm RCTRL S &kp P    &kp Z
-   &kp MINUS  &kp N7     &kp N3      &kp N5      &kp N1      &kp X         &kp V     &kp M        &kp D       &kp N6      &kp N2   &kp EQUAL
+   &kp MINUS  &kp N7     &kp N3      &kp N5      &kp N1      &kp C         &kp V     &kp M        &kp D       &kp N6      &kp N2   &kp EQUAL
                                      &kp ESC     &mo 8    &lt 5 SPACE   &kp SPACE &mo 9        &kp RET
                         >;
                 };
