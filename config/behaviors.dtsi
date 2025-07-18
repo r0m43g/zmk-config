@@ -70,5 +70,11 @@
             key-positions = <10 11>;
             bindings = <&kp BSPC>;
         };
+
+        combo_btrst {
+            timeout-ms = <150>;
+            key-positions = <24 25>;
+            bindings = <&bt BT_CLR>;
+        };
     };
 };
