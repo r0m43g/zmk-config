@@ -26,7 +26,7 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N7>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 0>;
+                     , <&macro_tap &to 4>;
         };
 
         // LT: Ctrl+8 + переключение на литовский слой
@@ -37,7 +37,7 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N8>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 2>;
+                     , <&macro_tap &to 1>;
         };
 
         // RU: Ctrl+9 + переключение на русский слой
@@ -51,7 +51,7 @@
                      , <&macro_tap &to 6>;
         };
 
-        // RAT: Ctrl+0 + переключение на ратисе
+        // RAT: Ctrl+8 + переключение на ратисе
         switch_rat: switch_rat {
             compatible = "zmk,behavior-macro";
             label = "SWITCH_RAT";
@@ -59,7 +59,7 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N8>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 3>;
+                     , <&macro_tap &to 0>;
         };
     };
 
@@ -73,8 +73,14 @@
 
         combo_btrst {
             timeout-ms = <150>;
-            key-positions = <24 25>;
+            key-positions = <0 24>;
             bindings = <&bt BT_CLR>;
+        };
+
+        combo_esc {
+            timeout-ms = <150>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
         };
     };
 };
