@@ -111,9 +111,9 @@
                         // |  -  |  P  |  X  |  W  |  D  |  ,  |---|  Y  |  V   | S-/ |  /  | S-| |  ?  |
                         //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
                         bindings = <
-   &kp TAB    &kp Z      &kp SQT     &hm LALT T  &kp H       &kp N         &kp S     &kp E        &hm RALT B   &kp J        &kp G         &kp I
-   &kp LS(N6) &hm LGUI F &hm LCTRL C &lt 7 L     &hm LSHFT A &kp U         &kp LBKT  &hm RSHFT Q  &lt 7 R      &hm RCTRL K  &kp LS(N4)    &kp LS(N2)
-   &kp BSPC   &kp P      &kp X       &kp W       &kp D       &kp COMMA     &kp Y     &kp V        &kp LS(FSLH) &kp FSLH     &kp LS(BSLH)  &kp LS(N7)
+   &kp TAB    &kp DOT    &kp SQT     &hm LALT S  &kp J       &kp A         &kp Q     &kp Y        &hm RALT R   &kp U        &kp COMMA     &kp W
+   &kp O      &hm LGUI E &hm LCTRL T &lt 7 B     &hm LSHFT F &kp LBKT      &kp K     &hm RSHFT H  &lt 7 N      &hm RCTRL C  &kp G         &kp P
+   &kp BSPC   &kp DOT    &kp GRAVE   &kp M       &kp Z       &kp RBKT      &kp D     &kp V        &kp L        &kp I        &kp X         &kp SEMI
                                      &kp ESC     &mo 8       &lt 7 SPACE   &kp SPACE &mo 9        &kp RET
                         >;
                 };
@@ -126,9 +126,9 @@
                         // |BSPC |  ъ  |  ь  |  ц  |  в  |  б  |---|  н  |  м   |  ,  |  .  |  /  |  ?  |
                         //                    | ESC | NAV | SPC |---| SPC | SYM  | RET |
                         bindings = <
-   &trans  &kp DOT    &kp SEMI  &kp GRAVE  &kp LS(N4) &kp LS(N5)      &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &kp O
-   &trans  &kp LS(N1) &trans    &kp BSLH   &kp LS(N9) &trans          &trans     &kp LS(N0) &kp LS(N2) &kp LS(N6) &trans     &trans
-   &kp DEL &kp RBKT   &kp M     &kp LS(N3) &kp MINUS  &kp PLUS        &kp UNDER  &kp EQUAL  &trans     &trans     &trans     &trans
+   &trans  &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)     &kp LS(N6) &kp LS(N7) &kp LS(N8)   &kp LS(N9) &kp LS(N0)   &kp MINUS
+   &trans  &trans     &trans    &trans      &kp LS(N9) &trans         &trans     &kp LS(N0) &kp LS(N2)   &kp LS(N6) &kp LS(N4)   &kp LS(N2)
+   &kp DEL &kp RBKT   &kp M     &kp LS(N3)  &kp MINUS  &kp PLUS       &kp UNDER  &kp EQUAL  &kp LS(FSLH) &kp FSLH   &kp LS(BSLH) &kp LS(N7)
                               &trans &trans &trans       &trans &caps_word &trans
                         >;
                 };
