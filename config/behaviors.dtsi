@@ -5,15 +5,15 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <300>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <150>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <200>;
             flavor = "tap-preferred";  // исправлена опечатка
             bindings = <&kp>, <&kp>;
         };
         
         mt {
             tapping-term-ms = <300>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <200>;
         };
     };
 
@@ -26,18 +26,18 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N7>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 4>;
+                     , <&macro_tap &to 2>;
         };
 
-        // LT: Ctrl+8 + переключение на литовский слой
+        // LT: Ctrl+8 + переключение на     слой
         switch_lt: switch_lt {
             compatible = "zmk,behavior-macro";
-            label = "SWITCH_LT";
+            label = "SWITCH_EN";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LCTRL>
-                     , <&macro_tap &kp N8>
+                     , <&macro_tap &kp N7>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 1>;
+                     , <&macro_tap &to 2>;
         };
 
         // RU: Ctrl+9 + переключение на русский слой
@@ -48,7 +48,7 @@
             bindings = <&macro_press &kp LCTRL>
                      , <&macro_tap &kp N9>
                      , <&macro_release &kp LCTRL>
-                     , <&macro_tap &to 6>;
+                     , <&macro_tap &to 4>;
         };
 
         // RAT: Ctrl+8 + переключение на ратисе
