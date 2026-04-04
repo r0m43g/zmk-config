@@ -22,10 +22,10 @@
                         // |  -  |  Ų  |  Ę  |  Į  |  Ą  |  X  |-------|  V  |  M  |  D  |  Š  |  Č  |  Ž  |
                         //                   | ESC | NAV | SPC |-------| SPC | SYM  | RET |
                         bindings = <
-   &kp W    &kp N8     &kp N4      &kp Y      &kp O       &kp Q         &kp J &kp N       &kp K      &kp G       &kp B      &kp C
-   &kp F    &hm LGUI U &hm LCTRL E &hm LALT I &hm LSHFT A &kp H         &kp L &hm RSHFT R &hm RALT T &hm RCTRL S &hm RGUI P &kp EQUAL
-   &kp BSPC &kp N7     &kp N3      &kp N5     &kp N1      &kp X         &kp V &kp M       &kp D      &kp N6      &kp N2     &kp Z
-                                     &kp ESC     &mo 6    &lt 1 SPACE   &kp SPACE &mo 7        &kp RET
+   &kp W    &kp N8      &kp N4        &kp Y       &kp O         &kp Q         &kp J &kp N       &kp K       &kp G         &kp B       &kp C
+   &kp F    &kp U       &kp E         &kp I       &kp A         &kp H         &kp L &kp R       &kp T       &kp S         &kp P       &kp EQUAL
+   &kp BSPC &hm LGUI N7 &hm LCTRL N3  &hm LALT N5 &hm LSHFT N1  &kp X         &kp V &hm LSHFT M &hm RALT D  &hm LCTRL N6  &hm RGUI N2 &kp Z
+                                     &lt 1 ESC     &mo 6    &kp SPACE   &kp SPACE &mo 7        &lt 1 RET
                         >;
                 };
 
@@ -37,9 +37,9 @@
                         // | -   |  +  |  =  | '|' |  {  |  <  |-------|  >  |  }  |  ,  |  .  |  /  | ?    |
                         //                   |     |     |     |-------|     |caps_w|     |
                         bindings = <
-   &kp TAB    &kp RA(EXCL) &kp RA(AT)    &kp RA(HASH) &kp RA(DLLR) &kp RA(PRCNT)   &kp RA(CARET) &kp RA(AMPS) &kp RA(ASTRK) &kp UNDER &kp RA(EQUAL) &kp MINUS
-   &kp RA(AT) &kp GRAVE    &kp TILDE     &kp BSLH     &kp LPAR     &kp LBKT        &kp RBKT      &kp RPAR     &kp DQT       &kp COLON &kp SEMI      &kp SQT
-   &kp DEL    &kp RA(PLUS) &kp RA(EQUAL) &kp PIPE     &kp LBRC     &kp LT          &kp GT        &kp RBRC     &kp COMMA     &kp DOT   &kp FSLH      &kp RS(FSLH)
+   &kp TAB    &kp RA(EXCL) &kp RA(AT)    &kp RA(HASH) &kp RA(DLLR)  &kp RA(PRCNT)     &kp RA(CARET) &kp RA(AMPS)  &kp RA(ASTRK) &kp UNDER &kp RA(EQUAL) &kp MINUS
+   &kp RA(AT) &kp GRAVE    &kp TILDE     &kp BSLH     &kp LPAR      &kp RPAR          &kp LBKT      &kp RBKT      &kp DQT       &kp COLON &kp SEMI      &kp SQT
+   &kp DEL    &kp RA(PLUS) &kp RA(EQUAL) &kp PIPE     &kp LBRC      &kp RBRC          &kp LT        &kp GT        &kp COMMA     &kp DOT   &kp FSLH      &kp RS(FSLH)
                         &trans     &trans     &trans        &trans     &caps_word     &trans
                         >;
                 };
@@ -52,10 +52,10 @@
                         // | -    |  Z  |  X  |  C  |  V  |  B  |-------|  N  |  M   |  ,  |  .  |  /  | !    |
                         //                    | ESC | NAV | SPC |-------| SPC | SYM  | RET |
                         bindings = <
-   &kp TAB   &kp Q      &kp W       &kp E       &kp R       &kp T         &kp Y     &kp U        &kp I       &kp O       &kp P         &kp MINUS
-   &kp AT    &hm LGUI A &hm LCTRL S &hm LALT D  &hm LSHFT F &kp G         &kp H     &hm RSHFT J  &hm RALT K  &hm RCTRL L &hm RGUI SEMI &kp SQT
-   &kp BSPC  &kp Z      &kp X       &kp C       &kp V       &kp B         &kp N     &kp M        &kp COMMA   &kp DOT     &kp FSLH      &kp QMARK
-                                    &kp ESC     &mo 6       &lt 3 SPACE   &kp SPACE &mo 7        &kp RET
+   &kp TAB   &kp Q      &kp W       &kp E       &kp R       &kp T         &kp Y     &kp U       &kp I           &kp O         &kp P         &kp MINUS
+   &kp AT    &kp A      &kp S       &kp D       &kp F       &kp G         &kp H     &kp J       &kp K           &kp L         &kp SEMI      &kp SQT
+   &kp BSPC  &hm LGUI Z &hm LCTRL X &hm LALT C  &hm LSHFT V &kp B         &kp N     &hm RSHFT M &hm RALT COMMA  &hm RCTRL DOT &hm RGUI FSLH &kp QMARK
+                                    &lt 3 ESC     &mo 6       &kp SPACE   &kp SPACE &mo 7       &lt 3 RET
                         >;
                 };
 
@@ -68,8 +68,8 @@
                         //                   |     |     |     |-------|     |caps_w|     |
                         bindings = <
    &kp TAB  &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp UNDER  &kp EQUAL  &kp MINUS
-   &kp AT   &kp GRAVE  &kp TILDE  &kp BSLH   &kp LPAR   &kp LBKT        &kp RBKT   &kp RPAR   &kp DQT    &kp COLON  &kp SEMI   &kp SQT
-   &kp DEL  &kp PLUS   &kp EQUAL  &kp PIPE   &kp LBRC   &kp LT          &kp GT     &kp RBRC   &kp COMMA  &kp DOT    &kp FSLH   &kp QMARK
+   &kp AT   &kp GRAVE  &kp TILDE  &kp BSLH   &kp LPAR   &kp RPAR        &kp LBKT   &kp RBKT   &kp DQT    &kp COLON  &kp SEMI   &kp SQT
+   &kp DEL  &kp PLUS   &kp EQUAL  &kp PIPE   &kp LBRC   &kp RBRC        &kp LT     &kp GT     &kp COMMA  &kp DOT    &kp FSLH   &kp QMARK
                                   &trans     &trans     &trans          &trans     &caps_word &trans
                         >;
                 };
@@ -81,10 +81,10 @@
                         // | BSPC|  Ю  |  Ё  |  Ь  |  Я  |  Ъ  |-------|  В  |  М  |  Д  |  Ш  |  Ч  |  З  |
                         //                   | ESC | NAV | SPC |-------| SPC | SYM | RET |
                         bindings = <
-   &kp O    &kp DOT    &kp SQT     &kp S       &kp J       &kp O         &kp Q     &kp Y        &kp R       &kp U        &kp COMMA  &kp W
-   &kp A    &hm LGUI E &hm LCTRL T &hm LALT B  &hm LSHFT F &kp LBKT      &kp K     &hm RSHFT H  &hm RALT N  &hm RCTRL C  &hm RGUI G &kp SEMI
-   &kp BSPC &kp DOT    &kp GRAVE   &kp M       &kp Z       &kp RBKT      &kp D     &kp V        &kp L       &kp I        &kp X      &kp P
-                                   &kp ESC     &mo 6       &lt 5 SPACE   &kp SPACE &mo 7        &kp RET
+   &kp O    &kp DOT       &kp SQT         &kp S       &kp J       &kp O         &kp Q     &kp Y       &kp R       &kp U       &kp COMMA   &kp W
+   &kp A    &kp E         &kp T           &kp B       &kp F       &kp LBKT      &kp K     &kp H       &kp N       &kp C       &kp G       &kp SEMI
+   &kp BSPC &hm LGUI DOT  &hm LCTRL GRAVE &hm LALT M  &hm LSHFT Z &kp RBKT      &kp D     &hm RSHFT V &hm RALT L  &hm RCTRL I &hm RGUI X  &kp P
+                                   &lt 5 ESC     &mo 6       &kp SPACE   &kp SPACE &mo 7        &lt 5 RET
                         >;
                 };
 
@@ -97,8 +97,8 @@
                         //                   | ESC | NAV | SPC |------| SPC | SYM  | RET |
                         bindings = <
    &kp TAB &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5)     &kp LS(N6) &kp LS(N7) &kp LS(N8)   &kp UNDER  &kp EQUAL    &kp MINUS
-   &trans  &trans     &trans    &trans      &kp LS(N9) &trans         &trans     &kp LS(N0) &kp LS(N2)   &kp LS(N6) &kp LS(N4)   &kp LS(N2)
-   &kp DEL &kp RBKT   &kp M     &kp LS(N3)  &kp LS(N9) &kp PLUS       &kp UNDER  &kp LS(N0) &kp LS(FSLH) &kp FSLH   &kp LS(BSLH) &kp LS(N7)
+   &trans  &trans     &trans    &trans      &kp LS(N9) &kp LS(N0)     &kp LS(N9) &kp LS(N0) &kp LS(N2)   &kp LS(N6) &kp LS(N4)   &kp LS(N2)
+   &kp DEL &kp RBKT   &kp M     &kp LS(N3)  &kp LS(N9) &kp LS(N0)     &kp LS(N9) &kp LS(N0) &kp LS(FSLH) &kp FSLH   &kp LS(BSLH) &kp LS(N7)
                                 &trans      &trans     &trans         &trans     &caps_word &trans
                         >;
                 };
