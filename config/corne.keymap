@@ -25,7 +25,7 @@
    &kp W    &kp N8      &kp N4        &kp Y       &kp O         &kp Q         &kp J &kp N       &kp K       &kp G         &kp B       &kp C
    &kp F    &kp U       &kp E         &kp I       &kp A         &kp H         &kp L &kp R       &kp T       &kp S         &kp P       &kp EQUAL
    &kp BSPC &kp N7      &hm LCTRL N3  &hm LALT N5 &hm LSHFT N1  &kp X         &kp V &hm LSHFT M &hm RALT D  &hm LCTRL N6  &kp N2      &kp Z
-                                     &hm LGUI ESC   &lt 6 SPACE   &mo 1     &mo 1 &lt 7 SPACE   &hm RGUI RET
+                                     &hm LGUI ESC   &lt 6 COMMA   &lt 1 SPACE   &kp SPACE &lt 7 DOT   &hm RGUI RET
                         >;
                 };
 
@@ -55,7 +55,7 @@
    &kp TAB   &kp Q      &kp W       &kp E       &kp R       &kp T         &kp Y     &kp U       &kp I           &kp O         &kp P         &kp MINUS
    &kp AT    &kp A      &kp S       &kp D       &kp F       &kp G         &kp H     &kp J       &kp K           &kp L         &kp SEMI      &kp SQT
    &kp BSPC  &kp Z      &hm LCTRL X &hm LALT C  &hm LSHFT V &kp B         &kp N     &hm RSHFT M &hm RALT COMMA  &hm RCTRL DOT &kp FSLH      &kp QMARK
-                                  &hm LGUI ESC   &lt 6 SPACE   &mo 3     &mo 3 &lt 7 SPACE   &hm RGUI RET
+                                  &hm LGUI ESC   &lt 6 COMMA   &lt 3 SPACE   &kp SPACE &lt 7 DOT   &hm RGUI RET
                         >;
                 };
 
@@ -84,7 +84,7 @@
    &kp O    &kp DOT       &kp SQT         &kp S       &kp J       &kp O         &kp Q     &kp Y       &kp R       &kp U       &kp COMMA   &kp W
    &kp A    &kp E         &kp T           &kp B       &kp F       &kp LBKT      &kp K     &kp H       &kp N       &kp C       &kp G       &kp SEMI
    &kp BSPC &kp DOT       &hm LCTRL GRAVE &hm LALT M  &hm LSHFT Z &kp RBKT      &kp D     &hm RSHFT V &hm RALT L  &hm RCTRL I &kp X       &kp P
-                                        &hm LGUI ESC   &lt 6 SPACE   &mo 5     &mo 5 &lt 7 SPACE   &hm RGUI RET
+                                        &hm LGUI ESC   &lt 6 LS(FSLH)   &lt 5 SPACE   &kp SPACE &lt 7 FSLH   &hm RGUI RET
                         >;
                 };
 
